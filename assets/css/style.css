@@ -1,0 +1,72 @@
+body {
+	background: #aeddd0 url("../images/green_dust_scratch.png") repeat;
+}
+
+header {
+}
+
+h1, h2, h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #aeddd0;
+	text-align: center;	
+	background-color: #2e5d50;
+	margin: 0;
+	padding: 10px;
+	line-height: 1.5;
+	font-variant: small-caps;
+}
+
+section {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #2e5d50;
+	text-align: center;	
+}
+
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #2e5d50;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+li img {
+	width: 75px;
+	padding: 10px; 
+}
+
+@media (max-width: 768px){
+	ul li {
+    display: inline-block;
+	}
+}
+
+@media (min-width: 768px){
+	#directions, #random-number, #total-score {
+    margin-bottom: 30px;
+	}
+}
+
+#directions {
+	background-color: white;
+	padding: 20px;
+}
+
+#crystals {
+	padding: 20px;
+	text-align: center;
+}
+
+#random-number {
+	background-color: white;
+}
+
+#total-score {
+	background-color: white;
+}
+
+
+#win-loss {
+	background-color: white;
+}
